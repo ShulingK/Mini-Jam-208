@@ -3,6 +3,19 @@ using UnityEngine;
 
 public class MenuManager : MonoBehaviour
 {
+    AudioManager _audioManager;
+    AudioEvent _audioEvent;
+
+    public void Start()
+    {
+        if (AudioManager.Instance != null)
+            _audioManager = AudioManager.Instance;
+
+        if (AudioEvent.Instance != null)
+            _audioEvent = AudioEvent.Instance;
+
+        _audioManager.PlayMusic(_audioEvent._menuMusic);
+    }
 
     #region Play
 
@@ -26,6 +39,8 @@ public class MenuManager : MonoBehaviour
     {
         _parameters.SetActive(active);
 
+        _audioManager.PlayOneShot(_audioEvent._buttonClicked);
+
         yield return null;
     }
 
@@ -43,6 +58,8 @@ public class MenuManager : MonoBehaviour
     IEnumerator CreditsCoroutine(bool active)
     {
         _credits.SetActive(active);
+
+        _audioManager.PlayOneShot(_audioEvent._buttonClicked);
 
         yield return null;
     }
