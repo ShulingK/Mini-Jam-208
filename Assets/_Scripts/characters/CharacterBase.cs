@@ -7,8 +7,6 @@ public abstract class CharacterBase : MonoBehaviour
 
     private float _life;
     protected Rigidbody2D rb;
-    private SpriteRenderer spriteRenderer;
-    private Color baseColor;
 
     public float Life
     {
@@ -25,8 +23,6 @@ public abstract class CharacterBase : MonoBehaviour
 
             if (_life <= 0)
                 OnDeath?.Invoke();
-
-            UpdateColor();
         }
     }
 
@@ -37,8 +33,6 @@ public abstract class CharacterBase : MonoBehaviour
     protected virtual void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
-        spriteRenderer = GetComponent<SpriteRenderer>();
-        baseColor = spriteRenderer != null ? spriteRenderer.color : Color.white;
     }
 
     protected virtual void Start()
@@ -58,19 +52,6 @@ public abstract class CharacterBase : MonoBehaviour
     {
         if (amount > 0)
             Life += amount;
-    }
-
-    void UpdateColor()
-    {
-        if (spriteRenderer == null) return;
-        float ratio = _life / statsData.maxHP;
-
-        if (ratio <= 0.25f)
-            spriteRenderer.color = Color.red;
-        else if (ratio <= 0.5f)
-            spriteRenderer.color = Color.yellow;
-        else
-            spriteRenderer.color = baseColor;
     }
 
     protected virtual void OnEnable()
