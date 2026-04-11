@@ -1,9 +1,18 @@
+using System;
 using UnityEngine;
 
 public class Parallax : MonoBehaviour
 {
-    [SerializeField] private Transform cameraTransform;
-    [SerializeField] private float parallaxMultiplier;
+    [Serializable]
+    struct LayerParallax
+    {
+        public LayerMask _layerMask;
+        public float _parallaxMultiplier;
+    }
+
+
+    [SerializeField] private Transform cameraTransform; 
+    [SerializeField] private LayerParallax[] _layers;
 
     private Vector3 lastCameraPosition;
 
@@ -16,7 +25,20 @@ public class Parallax : MonoBehaviour
     {
         Vector3 deltaMovement = cameraTransform.position - lastCameraPosition;
 
-        transform.position += new Vector3(-deltaMovement.x * parallaxMultiplier, 0f, 0f);
+        foreach (var layer in _layers)
+        {
+            foreach (GameObject obj in FindObjectsByType<GameObject>(FindObjectsSortMode.None))
+            {
+                if (((1 << obj.layer) & layer._layerMask) != 0)
+                {
+                    obj.transform.position += new Vector3(
+                        deltaMovement.x * layer._parallaxMultiplier,
+                        0f,
+                        0f
+                    );
+                }
+            }
+        }
 
         lastCameraPosition = cameraTransform.position;
     }
