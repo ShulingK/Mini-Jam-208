@@ -608,6 +608,7 @@ GameObject:
   - component: {fileID: 1085739160}
   - component: {fileID: 1085739161}
   - component: {fileID: 1085739162}
+  - component: {fileID: 1085739163}
   m_Layer: 2
   m_Name: Player_0
   m_TagString: Untagged
@@ -703,6 +704,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
   statsData: {fileID: 11400000, guid: cb7c8d32eaa307c41a193fa28303c20e, type: 2}
   _boxCollider: {fileID: 1085739162}
+  _spellCaster: {fileID: 1085739163}
 --- !u!50 &1085739161
 Rigidbody2D:
   serializedVersion: 5
@@ -729,7 +731,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &1085739162
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -776,6 +778,21 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 2.94, y: 6.11668}
   m_EdgeRadius: 0
+--- !u!114 &1085739163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1085739157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 558af8b0b1154054885a59e7865bc98c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SpellCaster
+  castPoint: {fileID: 1085739159}
+  spells:
+  - data: {fileID: 11400000, guid: 5d809ae3fab3ce049b76180fd0efe269, type: 2}
 --- !u!1 &1137573848
 GameObject:
   m_ObjectHideFlags: 0

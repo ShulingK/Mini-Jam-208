@@ -1,3 +1,5 @@
+using JetBrains.Annotations;
+using UnityEditor.Tilemaps;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.UIElements;
@@ -9,6 +11,7 @@ public class PlayerController : CharacterBase
 
     private bool isCrouching;
     [SerializeField] BoxCollider2D _boxCollider;
+    [SerializeField] SpellCaster _spellCaster;
 
     protected override void Awake()
     {
@@ -24,6 +27,8 @@ public class PlayerController : CharacterBase
 
         inputActions.Player.Crouch.started += OnCrouch;
         inputActions.Player.Crouch.canceled += OnEndCrouch;
+
+        inputActions.Player.Spell1.started += CastSpell1;
     }
 
     protected override void OnDisable()
@@ -31,8 +36,10 @@ public class PlayerController : CharacterBase
         inputActions.Player.Move.canceled -= ctx => moveInput = Vector2.zero;
 
         inputActions.Player.Crouch.started -= OnCrouch;
-        inputActions.Player.Crouch.started -= OnEndCrouch;
-        
+        inputActions.Player.Crouch.canceled -= OnEndCrouch;
+
+        inputActions.Player.Spell1.started -= CastSpell1;
+
         inputActions.Disable();
     }
 
@@ -79,7 +86,37 @@ public class PlayerController : CharacterBase
 
         moveInput = inputActions.Player.Move.ReadValue<Vector2>() * crouchFactor;
 
+        if (moveInput.x > 0)
+            GetComponent<SpriteRenderer>().flipX = false;
+        else if (moveInput.x < 0)
+            GetComponent<SpriteRenderer>().flipX = true;
+
         float speed = GetMoveSpeed();
         rb.linearVelocity = new Vector2(moveInput.x * speed, rb.linearVelocity.y);
     }
+
+    #region Spell
+
+    private void CastSpell1(InputAction.CallbackContext context)
+    {
+        Vector2 dir = GetComponent<SpriteRenderer>().flipX? Vector2.left: Vector2.right; // ou left selon ton perso
+
+        _spellCaster.CastSpell(0, dir);
+    }
+    private void CastSpell2(InputAction.CallbackContext context)
+    {
+        // _spellCaster.CastSpell(1);
+    }
+    private void CastSpell3(InputAction.CallbackContext context)
+    {
+        // _spellCaster.CastSpell(2);
+    }
+    private void CastSpell4(InputAction.CallbackContext context)
+    {
+        // _spellCaster.CastSpell(3);
+    }
+
+    #endregion
+
+
 }
