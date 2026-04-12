@@ -6,7 +6,6 @@ public class SpellMeleeData : SpellData
 {
     [Header("Melee Settings")]
     public float radius = 1.5f;
-    public int damage = 10;
     public LayerMask enemyLayer;
     public GameObject _prefabVFX;
 
@@ -16,7 +15,7 @@ public class SpellMeleeData : SpellData
 
         if (proj.TryGetComponent<SpellMeleeBehavior>(out var behavior))
         {
-            behavior.Init(origin, target, radius, damage, enemyLayer, _prefabVFX);
+            behavior.Init(origin, target, radius, _damage, enemyLayer, _prefabVFX, _tagTarget);
             behavior.Cast();
         }
     }

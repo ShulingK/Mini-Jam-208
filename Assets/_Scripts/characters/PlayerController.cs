@@ -9,9 +9,10 @@ public class PlayerController : CharacterBase
     private Player1 inputActions;  
     private Vector2 moveInput;
 
-    private bool isCrouching;
+    private bool _isCrouching;
     [SerializeField] BoxCollider2D _boxCollider;
     [SerializeField] SpellCaster _spellCaster;
+    [SerializeField] GameObject _head;
 
     protected override void Awake()
     {
@@ -33,6 +34,8 @@ public class PlayerController : CharacterBase
         inputActions.Player.Spell3.started += CastSpell3;
         inputActions.Player.Spell4.started += CastSpell4;
         inputActions.Player.Spell5.started += CastSpell5;
+
+        OnDeath += Death;
     }
 
     protected override void OnDisable()
@@ -54,7 +57,7 @@ public class PlayerController : CharacterBase
 
     private void OnCrouch(InputAction.CallbackContext context)
     {
-        isCrouching = true;
+        _isCrouching = true;
 
         Vector2 oldSize = _boxCollider.size;
         Vector2 newSize = oldSize;
@@ -67,10 +70,12 @@ public class PlayerController : CharacterBase
         offset.y -= (oldSize.y - newSize.y) / 2f;
 
         _boxCollider.offset = offset;
+
+        GetComponent<Animator>().SetBool("Crouch", true);
     }
     private void OnEndCrouch(InputAction.CallbackContext context)
     {
-        isCrouching = false;
+        _isCrouching = false;
 
         Vector2 oldSize = _boxCollider.size;
         Vector2 newSize = oldSize;
@@ -83,24 +88,35 @@ public class PlayerController : CharacterBase
         offset.y += (newSize.y - oldSize.y) / 2f;
 
         _boxCollider.offset = offset;
+
+        GetComponent<Animator>().SetBool("Crouch", false);
     }
+
+    public bool IsCrouching() => _isCrouching;
+
 
     private void FixedUpdate()
     {
         float crouchFactor = 1f;
 
-        if (isCrouching)
+        if (_isCrouching)
             crouchFactor = 0f;
 
         moveInput = inputActions.Player.Move.ReadValue<Vector2>() * crouchFactor;
 
-        if (moveInput.x > 0)
+        if (moveInput.x > 0){
             GetComponent<SpriteRenderer>().flipX = false;
-        else if (moveInput.x < 0)
+            _head.GetComponent<SpriteRenderer>().flipX = false;
+        }
+        else if (moveInput.x < 0){
             GetComponent<SpriteRenderer>().flipX = true;
+            _head.GetComponent<SpriteRenderer>().flipX = true;
+        }
 
         float speed = GetMoveSpeed();
         rb.linearVelocity = new Vector2(moveInput.x * speed, rb.linearVelocity.y);
+
+        GetComponent<Animator>().SetFloat("Speed", Mathf.Abs(moveInput.x));
     }
 
     #region Spell
@@ -134,6 +150,12 @@ public class PlayerController : CharacterBase
         Vector2 dir = GetComponent<SpriteRenderer>().flipX ? Vector2.left : Vector2.right; // ou left selon ton perso
 
         _spellCaster.CastSpell(4, dir);
+    }
+
+    private void Death()
+    {
+        Debug.LogWarning("Player is dead");
+        gameObject.SetActive(false);
     }
 
     #endregion

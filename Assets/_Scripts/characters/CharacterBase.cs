@@ -16,6 +16,8 @@ public abstract class CharacterBase : MonoBehaviour
             float diff = value - _life;
             _life = Mathf.Clamp(value, 0, statsData.maxHP);
 
+            Debug.Log(_life);
+
             if (diff < 0)
                 OnDamage?.Invoke(-diff);
             else if (diff > 0)

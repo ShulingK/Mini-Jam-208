@@ -1,0 +1,968 @@
+fileFormatVersion: 2
+guid: 47ddbc7c50a3b094d93391aa3db1bddf
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3686633057411352124
+    second: SPRITESHEET eNEMIES (1)_0
+  - first:
+      213: -8442693812052629379
+    second: SPRITESHEET eNEMIES (1)_1
+  - first:
+      213: 765824037913070121
+    second: SPRITESHEET eNEMIES (1)_2
+  - first:
+      213: 1519087903953839399
+    second: SPRITESHEET eNEMIES (1)_3
+  - first:
+      213: 4434936903422446429
+    second: SPRITESHEET eNEMIES (1)_4
+  - first:
+      213: -5935000553487015062
+    second: SPRITESHEET eNEMIES (1)_5
+  - first:
+      213: -2946622661675035573
+    second: SPRITESHEET eNEMIES (1)_6
+  - first:
+      213: 9120279169745758303
+    second: SPRITESHEET eNEMIES (1)_7
+  - first:
+      213: 5965142521226296148
+    second: SPRITESHEET eNEMIES (1)_8
+  - first:
+      213: -3924201683536184314
+    second: SPRITESHEET eNEMIES (1)_9
+  - first:
+      213: -2122809795661754311
+    second: SPRITESHEET eNEMIES (1)_10
+  - first:
+      213: -2992664134090149156
+    second: SPRITESHEET eNEMIES (1)_11
+  - first:
+      213: -4227610180560689688
+    second: SPRITESHEET eNEMIES (1)_12
+  - first:
+      213: 1942407004200751457
+    second: SPRITESHEET eNEMIES (1)_13
+  - first:
+      213: -3517433964594060303
+    second: SPRITESHEET eNEMIES (1)_14
+  - first:
+      213: 8213827948528808599
+    second: SPRITESHEET eNEMIES (1)_15
+  - first:
+      213: 7287251599376673469
+    second: SPRITESHEET eNEMIES (1)_16
+  - first:
+      213: -3995961300408301691
+    second: SPRITESHEET eNEMIES (1)_17
+  - first:
+      213: -6551579391184124089
+    second: SPRITESHEET eNEMIES (1)_18
+  - first:
+      213: 3738682558332754937
+    second: SPRITESHEET eNEMIES (1)_19
+  - first:
+      213: -6052940645301313515
+    second: SPRITESHEET eNEMIES (1)_20
+  - first:
+      213: -3607829876692722217
+    second: SPRITESHEET eNEMIES (1)_21
+  - first:
+      213: 2317215948730101244
+    second: SPRITESHEET eNEMIES (1)_22
+  - first:
+      213: -3023430259053828518
+    second: SPRITESHEET eNEMIES (1)_23
+  - first:
+      213: 7283840432945922335
+    second: SPRITESHEET eNEMIES (1)_24
+  - first:
+      213: -6882304112339668936
+    second: SPRITESHEET eNEMIES (1)_25
+  - first:
+      213: -7953725380590409867
+    second: SPRITESHEET eNEMIES (1)_26
+  - first:
+      213: -454744124167584465
+    second: SPRITESHEET eNEMIES (1)_27
+  - first:
+      213: 2218461263372862641
+    second: SPRITESHEET eNEMIES (1)_28
+  - first:
+      213: 153219061197678377
+    second: SPRITESHEET eNEMIES (1)_29
+  - first:
+      213: -6462613571354036936
+    second: SPRITESHEET eNEMIES (1)_30
+  - first:
+      213: -95308215969609589
+    second: SPRITESHEET eNEMIES (1)_31
+  - first:
+      213: 5034157026392294275
+    second: SPRITESHEET eNEMIES (1)_32
+  - first:
+      213: -1068264897796984079
+    second: SPRITESHEET eNEMIES (1)_33
+  - first:
+      213: -1911556291114360674
+    second: SPRITESHEET eNEMIES (1)_34
+  - first:
+      213: 4107999870114417467
+    second: SPRITESHEET eNEMIES (1)_35
+  - first:
+      213: -1025641473876207364
+    second: SPRITESHEET eNEMIES (1)_36
+  - first:
+      213: -909479878228319077
+    second: SPRITESHEET eNEMIES (1)_37
+  - first:
+      213: -2063466273831588178
+    second: SPRITESHEET eNEMIES (1)_38
+  - first:
+      213: -3082313277666643949
+    second: SPRITESHEET eNEMIES (1)_39
+  - first:
+      213: 6607586555925413076
+    second: SPRITESHEET eNEMIES (1)_40
+  - first:
+      213: -8674772203205840438
+    second: SPRITESHEET eNEMIES (1)_41
+  - first:
+      213: -3697569907878861279
+    second: SPRITESHEET eNEMIES (1)_42
+  - first:
+      213: 249053052678667830
+    second: SPRITESHEET eNEMIES (1)_43
+  - first:
+      213: -2005452277109877343
+    second: SPRITESHEET eNEMIES (1)_44
+  - first:
+      213: -5049688192212331698
+    second: SPRITESHEET eNEMIES (1)_45
+  - first:
+      213: -4113165962553379751
+    second: SPRITESHEET eNEMIES (1)_46
+  - first:
+      213: 557246978436066139
+    second: SPRITESHEET eNEMIES (1)_47
+  - first:
+      213: 6208085580498402306
+    second: SPRITESHEET eNEMIES (1)_48
+  - first:
+      213: -2669762360042439951
+    second: SPRITESHEET eNEMIES (1)_49
+  - first:
+      213: 2331239266897280639
+    second: SPRITESHEET eNEMIES (1)_50
+  - first:
+      213: -7671216224253324121
+    second: SPRITESHEET eNEMIES (1)_51
+  - first:
+      213: 721410283942530539
+    second: SPRITESHEET eNEMIES (1)_52
+  - first:
+      213: -2984373247359391536
+    second: SPRITESHEET eNEMIES (1)_53
+  - first:
+      213: -4800656547361493361
+    second: SPRITESHEET eNEMIES (1)_54
+  - first:
+      213: 2351557687630228371
+    second: SPRITESHEET eNEMIES (1)_55
+  - first:
+      213: 5279369419435143165
+    second: SPRITESHEET eNEMIES (1)_56
+  - first:
+      213: -5245217370839901549
+    second: SPRITESHEET eNEMIES (1)_57
+  - first:
+      213: -8484383985804128173
+    second: SPRITESHEET eNEMIES (1)_58
+  - first:
+      213: -6031531468161429762
+    second: SPRITESHEET eNEMIES (1)_59
+  - first:
+      213: 6147623997268183964
+    second: SPRITESHEET eNEMIES (1)_60
+  - first:
+      213: -1795170762214201650
+    second: SPRITESHEET eNEMIES (1)_61
+  - first:
+      213: -3610937963186505782
+    second: SPRITESHEET eNEMIES (1)_62
+  - first:
+      213: 498366457924493858
+    second: SPRITESHEET eNEMIES (1)_63
+  - first:
+      213: 3766858332385404392
+    second: SPRITESHEET eNEMIES (1)_64
+  - first:
+      213: -988434083492544645
+    second: SPRITESHEET eNEMIES (1)_65
+  - first:
+      213: 6251278150094641845
+    second: SPRITESHEET eNEMIES (1)_66
+  - first:
+      213: 5871030665409363444
+    second: SPRITESHEET eNEMIES (1)_67
+  - first:
+      213: 2458724864400868904
+    second: SPRITESHEET eNEMIES (1)_68
+  - first:
+      213: 2222410645354426573
+    second: SPRITESHEET eNEMIES (1)_69
+  - first:
+      213: 407914143930144247
+    second: SPRITESHEET eNEMIES (1)_70
+  - first:
+      213: -731733511013924079
+    second: SPRITESHEET eNEMIES (1)_71
+  - first:
+      213: -2161551863293019637
+    second: SPRITESHEET eNEMIES (1)_72
+  - first:
+      213: -5098256366887665952
+    second: SPRITESHEET eNEMIES (1)_73
+  - first:
+      213: -1757105795289061727
+    second: SPRITESHEET eNEMIES (1)_74
+  - first:
+      213: 206440192533802422
+    second: SPRITESHEET eNEMIES (1)_75
+  - first:
+      213: -6441739641691831175
+    second: SPRITESHEET eNEMIES (1)_76
+  - first:
+      213: -1859832471850892552
+    second: SPRITESHEET eNEMIES (1)_77
+  - first:
+      213: 6887244231193222083
+    second: SPRITESHEET eNEMIES (1)_78
+  - first:
+      213: 4596033560760515590
+    second: SPRITESHEET eNEMIES (1)_79
+  - first:
+      213: 8143110019907297251
+    second: SPRITESHEET eNEMIES (1)_80
+  - first:
+      213: 1661382584571726193
+    second: SPRITESHEET eNEMIES (1)_81
+  - first:
+      213: -8468119088319574359
+    second: SPRITESHEET eNEMIES (1)_82
+  - first:
+      213: 6545287042283258037
+    second: SPRITESHEET eNEMIES (1)_83
+  - first:
+      213: -6621560119849671228
+    second: SPRITESHEET eNEMIES (1)_84
+  - first:
+      213: -8107082007449831074
+    second: SPRITESHEET eNEMIES (1)_85
+  - first:
+      213: 7521256438502818531
+    second: SPRITESHEET eNEMIES (1)_86
+  - first:
+      213: 5681749987827593173
+    second: SPRITESHEET eNEMIES (1)_87
+  - first:
+      213: -7065112108533984433
+    second: SPRITESHEET eNEMIES (1)_88
+  - first:
+      213: 8340799994456093306
+    second: SPRITESHEET eNEMIES (1)_89
+  - first:
+      213: -7730317701134990702
+    second: SPRITESHEET eNEMIES (1)_90
+  - first:
+      213: 5843250738032563156
+    second: SPRITESHEET eNEMIES (1)_91
+  - first:
+      213: -3765685048737149530
+    second: SPRITESHEET eNEMIES (1)_92
+  - first:
+      213: 7239758006763045797
+    second: SPRITESHEET eNEMIES (1)_93
+  - first:
+      213: 4018124778864130691
+    second: SPRITESHEET eNEMIES (1)_94
+  - first:
+      213: -8479569327013873456
+    second: SPRITESHEET eNEMIES (1)_95
+  - first:
+      213: -2131051649838808185
+    second: SPRITESHEET eNEMIES (1)_96
+  - first:
+      213: 8067191393008636583
+    second: SPRITESHEET eNEMIES (1)_97
+  - first:
+      213: -8895152961643891957
+    second: SPRITESHEET eNEMIES (1)_98
+  - first:
+      213: 2144853395731929857
+    second: SPRITESHEET eNEMIES (1)_99
+  - first:
+      213: -4349869958426399684
+    second: SPRITESHEET eNEMIES (1)_100
+  - first:
+      213: 1835218847426182212
+    second: SPRITESHEET eNEMIES (1)_101
+  - first:
+      213: 5805223764344072751
+    second: SPRITESHEET eNEMIES (1)_102
+  - first:
+      213: -6226042903675567317
+    second: SPRITESHEET eNEMIES (1)_103
+  - first:
+      213: -3649531820855398561
+    second: SPRITESHEET eNEMIES (1)_104
+  - first:
+      213: -6280736649729615431
+    second: SPRITESHEET eNEMIES (1)_105
+  - first:
+      213: -6741743626192734924
+    second: SPRITESHEET eNEMIES (1)_106
+  - first:
+      213: 4611272534080039485
+    second: SPRITESHEET eNEMIES (1)_107
+  - first:
+      213: 2787254258183299509
+    second: SPRITESHEET eNEMIES (1)_108
+  - first:
+      213: 4461410718538422216
+    second: SPRITESHEET eNEMIES (1)_109
+  - first:
+      213: -2329240221013897436
+    second: SPRITESHEET eNEMIES (1)_110
+  - first:
+      213: 9071026586620221747
+    second: SPRITESHEET eNEMIES (1)_111
+  - first:
+      213: 3200807937265642719
+    second: SPRITESHEET eNEMIES (1)_112
+  - first:
+      213: -4618934090218746133
+    second: SPRITESHEET eNEMIES (1)_113
+  - first:
+      213: 8966445706389728424
+    second: SPRITESHEET eNEMIES (1)_114
+  - first:
+      213: -1487057315422916613
+    second: SPRITESHEET eNEMIES (1)_115
+  - first:
+      213: -1763087220358220772
+    second: SPRITESHEET eNEMIES (1)_116
+  - first:
+      213: -6640590995449796365
+    second: SPRITESHEET eNEMIES (1)_117
+  - first:
+      213: 8756958450829916437
+    second: SPRITESHEET eNEMIES (1)_118
+  - first:
+      213: 8122974489174381885
+    second: SPRITESHEET eNEMIES (1)_119
+  - first:
+      213: 222837342297078947
+    second: SPRITESHEET eNEMIES (1)_120
+  - first:
+      213: 8443194306259395126
+    second: SPRITESHEET eNEMIES (1)_121
+  - first:
+      213: 6450211592366176475
+    second: SPRITESHEET eNEMIES (1)_122
+  - first:
+      213: -986993618023787034
+    second: SPRITESHEET eNEMIES (1)_123
+  - first:
+      213: -4717337062655034181
+    second: SPRITESHEET eNEMIES (1)_124
+  - first:
+      213: -6290929369279961216
+    second: SPRITESHEET eNEMIES (1)_125
+  - first:
+      213: -7184398921473853812
+    second: SPRITESHEET eNEMIES (1)_126
+  - first:
+      213: -4623302485908015308
+    second: SPRITESHEET eNEMIES (1)_127
+  - first:
+      213: 7489787721913201954
+    second: SPRITESHEET eNEMIES (1)_128
+  - first:
+      213: 2222182753813933943
+    second: SPRITESHEET eNEMIES (1)_129
+  - first:
+      213: 9057573032786161931
+    second: SPRITESHEET eNEMIES (1)_130
+  - first:
+      213: 9083791196596811021
+    second: SPRITESHEET eNEMIES (1)_131
+  - first:
+      213: 5514929380792736536
+    second: SPRITESHEET eNEMIES (1)_132
+  - first:
+      213: 4619589287756142569
+    second: SPRITESHEET eNEMIES (1)_133
+  - first:
+      213: 2878267842001708335
+    second: SPRITESHEET eNEMIES (1)_134
+  - first:
+      213: -1142490087983841437
+    second: SPRITESHEET eNEMIES (1)_135
+  - first:
+      213: -2674033557531852687
+    second: SPRITESHEET eNEMIES (1)_136
+  - first:
+      213: 4072838183503625665
+    second: SPRITESHEET eNEMIES (1)_137
+  - first:
+      213: 1274951078338678243
+    second: SPRITESHEET eNEMIES (1)_138
+  - first:
+      213: 4521817217870470944
+    second: SPRITESHEET eNEMIES (1)_139
+  - first:
+      213: 4906903816463674674
+    second: SPRITESHEET eNEMIES (1)_140
+  - first:
+      213: -1176038008847140050
+    second: SPRITESHEET eNEMIES (1)_141
+  - first:
+      213: 500202845336499392
+    second: SPRITESHEET eNEMIES (1)_142
+  - first:
+      213: 5994671308146026554
+    second: SPRITESHEET eNEMIES (1)_143
+  - first:
+      213: -5904670811159803416
+    second: SPRITESHEET eNEMIES (1)_144
+  - first:
+      213: -6267371737183810174
+    second: SPRITESHEET eNEMIES (1)_145
+  - first:
+      213: 4043455571307343103
+    second: SPRITESHEET eNEMIES (1)_146
+  - first:
+      213: -7450174166573661259
+    second: SPRITESHEET eNEMIES (1)_147
+  - first:
+      213: -1543678457288393481
+    second: SPRITESHEET eNEMIES (1)_148
+  - first:
+      213: -4252085302679446905
+    second: SPRITESHEET eNEMIES (1)_149
+  - first:
+      213: 8224607901460191439
+    second: SPRITESHEET eNEMIES (1)_150
+  - first:
+      213: -4165576347070123249
+    second: SPRITESHEET eNEMIES (1)_151
+  - first:
+      213: -8173208329389361429
+    second: SPRITESHEET eNEMIES (1)_152
+  - first:
+      213: -1579736257477498693
+    second: SPRITESHEET eNEMIES (1)_153
+  - first:
+      213: 3291398623883916645
+    second: SPRITESHEET eNEMIES (1)_154
+  - first:
+      213: -872243912722451670
+    second: SPRITESHEET eNEMIES (1)_155
+  - first:
+      213: 2046478889695320085
+    second: SPRITESHEET eNEMIES (1)_156
+  - first:
+      213: 6079712478694674436
+    second: SPRITESHEET eNEMIES (1)_157
+  - first:
+      213: -598325202989749831
+    second: SPRITESHEET eNEMIES (1)_158
+  - first:
+      213: 766140504841387782
+    second: SPRITESHEET eNEMIES (1)_159
+  - first:
+      213: 5285179820889652114
+    second: SPRITESHEET eNEMIES (1)_160
+  - first:
+      213: -11944813448758588
+    second: SPRITESHEET eNEMIES (1)_161
+  - first:
+      213: 7390977008062372270
+    second: SPRITESHEET eNEMIES (1)_162
+  - first:
+      213: -5638788249267847607
+    second: SPRITESHEET eNEMIES (1)_163
+  - first:
+      213: 792378593842085889
+    second: SPRITESHEET eNEMIES (1)_164
+  - first:
+      213: -5614931409227962964
+    second: SPRITESHEET eNEMIES (1)_165
+  - first:
+      213: 5886498952160268054
+    second: SPRITESHEET eNEMIES (1)_166
+  - first:
+      213: -2696425358296228595
+    second: SPRITESHEET eNEMIES (1)_167
+  - first:
+      213: 73609964174424637
+    second: SPRITESHEET eNEMIES (1)_168
+  - first:
+      213: -7033620720952446470
+    second: SPRITESHEET eNEMIES (1)_169
+  - first:
+      213: 8293577471477006302
+    second: SPRITESHEET eNEMIES (1)_170
+  - first:
+      213: -5709555105570110176
+    second: SPRITESHEET eNEMIES (1)_171
+  - first:
+      213: 7115200748335349511
+    second: SPRITESHEET eNEMIES (1)_172
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SPRITESHEET eNEMIES (1)_0
+      rect:
+        serializedVersion: 2
+        x: 2897
+        y: 300
+        width: 1331
+        height: 983
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c9b8c354c276dcc0800000000000000
+      internalID: -3686633057411352124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITESHEET eNEMIES (1)_46
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 588
+        width: 476
+        height: 609
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95437cb79591be6c0800000000000000
+      internalID: -4113165962553379751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITESHEET eNEMIES (1)_47
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 371
+        width: 731
+        height: 951
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5b67d9ac2dbbb700800000000000000
+      internalID: 557246978436066139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITESHEET eNEMIES (1)_48
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 1078
+        width: 255
+        height: 255
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20cf4d091fc872650800000000000000
+      internalID: 6208085580498402306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITESHEET eNEMIES (1)_49
+      rect:
+        serializedVersion: 2
+        x: 2155
+        y: 1163
+        width: 90
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fa36fe474913fad0800000000000000
+      internalID: -2669762360042439951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITESHEET eNEMIES (1)_144
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 177
+        width: 253
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e9c3397e256e0ea0800000000000000
+      internalID: -5904670811159803416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 81d11d00d2b6667499eee8baaf349bf1
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SPRITESHEET eNEMIES (1)_0: -3686633057411352124
+      SPRITESHEET eNEMIES (1)_1: -8442693812052629379
+      SPRITESHEET eNEMIES (1)_10: -2122809795661754311
+      SPRITESHEET eNEMIES (1)_100: -4349869958426399684
+      SPRITESHEET eNEMIES (1)_101: 1835218847426182212
+      SPRITESHEET eNEMIES (1)_102: 5805223764344072751
+      SPRITESHEET eNEMIES (1)_103: -6226042903675567317
+      SPRITESHEET eNEMIES (1)_104: -3649531820855398561
+      SPRITESHEET eNEMIES (1)_105: -6280736649729615431
+      SPRITESHEET eNEMIES (1)_106: -6741743626192734924
+      SPRITESHEET eNEMIES (1)_107: 4611272534080039485
+      SPRITESHEET eNEMIES (1)_108: 2787254258183299509
+      SPRITESHEET eNEMIES (1)_109: 4461410718538422216
+      SPRITESHEET eNEMIES (1)_11: -2992664134090149156
+      SPRITESHEET eNEMIES (1)_110: -2329240221013897436
+      SPRITESHEET eNEMIES (1)_111: 9071026586620221747
+      SPRITESHEET eNEMIES (1)_112: 3200807937265642719
+      SPRITESHEET eNEMIES (1)_113: -4618934090218746133
+      SPRITESHEET eNEMIES (1)_114: 8966445706389728424
+      SPRITESHEET eNEMIES (1)_115: -1487057315422916613
+      SPRITESHEET eNEMIES (1)_116: -1763087220358220772
+      SPRITESHEET eNEMIES (1)_117: -6640590995449796365
+      SPRITESHEET eNEMIES (1)_118: 8756958450829916437
+      SPRITESHEET eNEMIES (1)_119: 8122974489174381885
+      SPRITESHEET eNEMIES (1)_12: -4227610180560689688
+      SPRITESHEET eNEMIES (1)_120: 222837342297078947
+      SPRITESHEET eNEMIES (1)_121: 8443194306259395126
+      SPRITESHEET eNEMIES (1)_122: 6450211592366176475
+      SPRITESHEET eNEMIES (1)_123: -986993618023787034
+      SPRITESHEET eNEMIES (1)_124: -4717337062655034181
+      SPRITESHEET eNEMIES (1)_125: -6290929369279961216
+      SPRITESHEET eNEMIES (1)_126: -7184398921473853812
+      SPRITESHEET eNEMIES (1)_127: -4623302485908015308
+      SPRITESHEET eNEMIES (1)_128: 7489787721913201954
+      SPRITESHEET eNEMIES (1)_129: 2222182753813933943
+      SPRITESHEET eNEMIES (1)_13: 1942407004200751457
+      SPRITESHEET eNEMIES (1)_130: 9057573032786161931
+      SPRITESHEET eNEMIES (1)_131: 9083791196596811021
+      SPRITESHEET eNEMIES (1)_132: 5514929380792736536
+      SPRITESHEET eNEMIES (1)_133: 4619589287756142569
+      SPRITESHEET eNEMIES (1)_134: 2878267842001708335
+      SPRITESHEET eNEMIES (1)_135: -1142490087983841437
+      SPRITESHEET eNEMIES (1)_136: -2674033557531852687
+      SPRITESHEET eNEMIES (1)_137: 4072838183503625665
+      SPRITESHEET eNEMIES (1)_138: 1274951078338678243
+      SPRITESHEET eNEMIES (1)_139: 4521817217870470944
+      SPRITESHEET eNEMIES (1)_14: -3517433964594060303
+      SPRITESHEET eNEMIES (1)_140: 4906903816463674674
+      SPRITESHEET eNEMIES (1)_141: -1176038008847140050
+      SPRITESHEET eNEMIES (1)_142: 500202845336499392
+      SPRITESHEET eNEMIES (1)_143: 5994671308146026554
+      SPRITESHEET eNEMIES (1)_144: -5904670811159803416
+      SPRITESHEET eNEMIES (1)_145: -6267371737183810174
+      SPRITESHEET eNEMIES (1)_146: 4043455571307343103
+      SPRITESHEET eNEMIES (1)_147: -7450174166573661259
+      SPRITESHEET eNEMIES (1)_148: -1543678457288393481
+      SPRITESHEET eNEMIES (1)_149: -4252085302679446905
+      SPRITESHEET eNEMIES (1)_15: 8213827948528808599
+      SPRITESHEET eNEMIES (1)_150: 8224607901460191439
+      SPRITESHEET eNEMIES (1)_151: -4165576347070123249
+      SPRITESHEET eNEMIES (1)_152: -8173208329389361429
+      SPRITESHEET eNEMIES (1)_153: -1579736257477498693
+      SPRITESHEET eNEMIES (1)_154: 3291398623883916645
+      SPRITESHEET eNEMIES (1)_155: -872243912722451670
+      SPRITESHEET eNEMIES (1)_156: 2046478889695320085
+      SPRITESHEET eNEMIES (1)_157: 6079712478694674436
+      SPRITESHEET eNEMIES (1)_158: -598325202989749831
+      SPRITESHEET eNEMIES (1)_159: 766140504841387782
+      SPRITESHEET eNEMIES (1)_16: 7287251599376673469
+      SPRITESHEET eNEMIES (1)_160: 5285179820889652114
+      SPRITESHEET eNEMIES (1)_161: -11944813448758588
+      SPRITESHEET eNEMIES (1)_162: 7390977008062372270
+      SPRITESHEET eNEMIES (1)_163: -5638788249267847607
+      SPRITESHEET eNEMIES (1)_164: 792378593842085889
+      SPRITESHEET eNEMIES (1)_165: -5614931409227962964
+      SPRITESHEET eNEMIES (1)_166: 5886498952160268054
+      SPRITESHEET eNEMIES (1)_167: -2696425358296228595
+      SPRITESHEET eNEMIES (1)_168: 73609964174424637
+      SPRITESHEET eNEMIES (1)_169: -7033620720952446470
+      SPRITESHEET eNEMIES (1)_17: -3995961300408301691
+      SPRITESHEET eNEMIES (1)_170: 8293577471477006302
+      SPRITESHEET eNEMIES (1)_171: -5709555105570110176
+      SPRITESHEET eNEMIES (1)_172: 7115200748335349511
+      SPRITESHEET eNEMIES (1)_173: -1730417925
+      SPRITESHEET eNEMIES (1)_18: -6551579391184124089
+      SPRITESHEET eNEMIES (1)_19: 3738682558332754937
+      SPRITESHEET eNEMIES (1)_2: 765824037913070121
+      SPRITESHEET eNEMIES (1)_20: -6052940645301313515
+      SPRITESHEET eNEMIES (1)_21: -3607829876692722217
+      SPRITESHEET eNEMIES (1)_22: 2317215948730101244
+      SPRITESHEET eNEMIES (1)_23: -3023430259053828518
+      SPRITESHEET eNEMIES (1)_24: 7283840432945922335
+      SPRITESHEET eNEMIES (1)_25: -6882304112339668936
+      SPRITESHEET eNEMIES (1)_26: -7953725380590409867
+      SPRITESHEET eNEMIES (1)_27: -454744124167584465
+      SPRITESHEET eNEMIES (1)_28: 2218461263372862641
+      SPRITESHEET eNEMIES (1)_29: 153219061197678377
+      SPRITESHEET eNEMIES (1)_3: 1519087903953839399
+      SPRITESHEET eNEMIES (1)_30: -6462613571354036936
+      SPRITESHEET eNEMIES (1)_31: -95308215969609589
+      SPRITESHEET eNEMIES (1)_32: 5034157026392294275
+      SPRITESHEET eNEMIES (1)_33: -1068264897796984079
+      SPRITESHEET eNEMIES (1)_34: -1911556291114360674
+      SPRITESHEET eNEMIES (1)_35: 4107999870114417467
+      SPRITESHEET eNEMIES (1)_36: -1025641473876207364
+      SPRITESHEET eNEMIES (1)_37: -909479878228319077
+      SPRITESHEET eNEMIES (1)_38: -2063466273831588178
+      SPRITESHEET eNEMIES (1)_39: -3082313277666643949
+      SPRITESHEET eNEMIES (1)_4: 4434936903422446429
+      SPRITESHEET eNEMIES (1)_40: 6607586555925413076
+      SPRITESHEET eNEMIES (1)_41: -8674772203205840438
+      SPRITESHEET eNEMIES (1)_42: -3697569907878861279
+      SPRITESHEET eNEMIES (1)_43: 249053052678667830
+      SPRITESHEET eNEMIES (1)_44: -2005452277109877343
+      SPRITESHEET eNEMIES (1)_45: -5049688192212331698
+      SPRITESHEET eNEMIES (1)_46: -4113165962553379751
+      SPRITESHEET eNEMIES (1)_47: 557246978436066139
+      SPRITESHEET eNEMIES (1)_48: 6208085580498402306
+      SPRITESHEET eNEMIES (1)_49: -2669762360042439951
+      SPRITESHEET eNEMIES (1)_5: -5935000553487015062
+      SPRITESHEET eNEMIES (1)_50: 2331239266897280639
+      SPRITESHEET eNEMIES (1)_51: -7671216224253324121
+      SPRITESHEET eNEMIES (1)_52: 721410283942530539
+      SPRITESHEET eNEMIES (1)_53: -2984373247359391536
+      SPRITESHEET eNEMIES (1)_54: -4800656547361493361
+      SPRITESHEET eNEMIES (1)_55: 2351557687630228371
+      SPRITESHEET eNEMIES (1)_56: 5279369419435143165
+      SPRITESHEET eNEMIES (1)_57: -5245217370839901549
+      SPRITESHEET eNEMIES (1)_58: -8484383985804128173
+      SPRITESHEET eNEMIES (1)_59: -6031531468161429762
+      SPRITESHEET eNEMIES (1)_6: -2946622661675035573
+      SPRITESHEET eNEMIES (1)_60: 6147623997268183964
+      SPRITESHEET eNEMIES (1)_61: -1795170762214201650
+      SPRITESHEET eNEMIES (1)_62: -3610937963186505782
+      SPRITESHEET eNEMIES (1)_63: 498366457924493858
+      SPRITESHEET eNEMIES (1)_64: 3766858332385404392
+      SPRITESHEET eNEMIES (1)_65: -988434083492544645
+      SPRITESHEET eNEMIES (1)_66: 6251278150094641845
+      SPRITESHEET eNEMIES (1)_67: 5871030665409363444
+      SPRITESHEET eNEMIES (1)_68: 2458724864400868904
+      SPRITESHEET eNEMIES (1)_69: 2222410645354426573
+      SPRITESHEET eNEMIES (1)_7: 9120279169745758303
+      SPRITESHEET eNEMIES (1)_70: 407914143930144247
+      SPRITESHEET eNEMIES (1)_71: -731733511013924079
+      SPRITESHEET eNEMIES (1)_72: -2161551863293019637
+      SPRITESHEET eNEMIES (1)_73: -5098256366887665952
+      SPRITESHEET eNEMIES (1)_74: -1757105795289061727
+      SPRITESHEET eNEMIES (1)_75: 206440192533802422
+      SPRITESHEET eNEMIES (1)_76: -6441739641691831175
+      SPRITESHEET eNEMIES (1)_77: -1859832471850892552
+      SPRITESHEET eNEMIES (1)_78: 6887244231193222083
+      SPRITESHEET eNEMIES (1)_79: 4596033560760515590
+      SPRITESHEET eNEMIES (1)_8: 5965142521226296148
+      SPRITESHEET eNEMIES (1)_80: 8143110019907297251
+      SPRITESHEET eNEMIES (1)_81: 1661382584571726193
+      SPRITESHEET eNEMIES (1)_82: -8468119088319574359
+      SPRITESHEET eNEMIES (1)_83: 6545287042283258037
+      SPRITESHEET eNEMIES (1)_84: -6621560119849671228
+      SPRITESHEET eNEMIES (1)_85: -8107082007449831074
+      SPRITESHEET eNEMIES (1)_86: 7521256438502818531
+      SPRITESHEET eNEMIES (1)_87: 5681749987827593173
+      SPRITESHEET eNEMIES (1)_88: -7065112108533984433
+      SPRITESHEET eNEMIES (1)_89: 8340799994456093306
+      SPRITESHEET eNEMIES (1)_9: -3924201683536184314
+      SPRITESHEET eNEMIES (1)_90: -7730317701134990702
+      SPRITESHEET eNEMIES (1)_91: 5843250738032563156
+      SPRITESHEET eNEMIES (1)_92: -3765685048737149530
+      SPRITESHEET eNEMIES (1)_93: 7239758006763045797
+      SPRITESHEET eNEMIES (1)_94: 4018124778864130691
+      SPRITESHEET eNEMIES (1)_95: -8479569327013873456
+      SPRITESHEET eNEMIES (1)_96: -2131051649838808185
+      SPRITESHEET eNEMIES (1)_97: 8067191393008636583
+      SPRITESHEET eNEMIES (1)_98: -8895152961643891957
+      SPRITESHEET eNEMIES (1)_99: 2144853395731929857
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,19 +1,17 @@
 using System.Collections;
 using UnityEngine;
-using static UnityEngine.UI.Image;
 
 public class SpellMeleeBehavior : SpellBehavior
 {
     private Transform _origin;
     private Vector2 _target;
     private float _radius;
-    private int _damage;
     private LayerMask _enemyLayer;
     private GameObject _prefabVFX;
 
     [SerializeField] private float _timeBeforeDeleting = 0.8f; 
 
-    public void Init(Transform origin, Vector2 target, float radius,int damages, LayerMask enemyLayer, GameObject prefabVFX)
+    public void Init(Transform origin, Vector2 target, float radius,int damages, LayerMask enemyLayer, GameObject prefabVFX, string tagTarget)
     {
         _origin = origin;
         _target = target;
@@ -21,6 +19,7 @@ public class SpellMeleeBehavior : SpellBehavior
         _damage = damages;
         _enemyLayer = enemyLayer;
         _prefabVFX = prefabVFX;
+        _tagTarget = tagTarget;
     }
 
 
@@ -30,15 +29,30 @@ public class SpellMeleeBehavior : SpellBehavior
 
         foreach (Collider2D hit in hits)
         {
-            if (hit.transform.tag == "Enemy")
+            Debug.Log("target : " + _tagTarget + "  hit : "+hit.transform.tag);
+
+            if (hit.transform.tag == _tagTarget)
             {
-                // Enemy.TakeDamage(_damage);
+                if (hit.TryGetComponent<PlayerController>(out PlayerController playerController))
+                {
+                    playerController.TakeDamage(_damage);
 
-                GameObject VFX = Instantiate(_prefabVFX, hit.transform);
+                    GameObject VFX = Instantiate(_prefabVFX, hit.transform);
 
-                yield return new WaitForSeconds(_timeBeforeDeleting);
+                    yield return new WaitForSeconds(_timeBeforeDeleting);
 
-                Destroy(VFX);
+                    Destroy(VFX);
+                }
+                else if (hit.TryGetComponent<EnemyController>(out EnemyController enemyController))
+                {
+                    enemyController.TakeDamage(_damage);
+
+                    GameObject VFX = Instantiate(_prefabVFX, hit.transform);
+
+                    yield return new WaitForSeconds(_timeBeforeDeleting);
+
+                    Destroy(VFX);
+                }
             }
         }
 

@@ -26,9 +26,23 @@ public class SpellChargedProjectilBehavior : SpellBehavior
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.transform.tag == "Enemy")
+        if (collision.transform.tag == _tagTarget)
         {
-            // Take Damages;
+            if (collision.TryGetComponent<PlayerController>(out PlayerController playerController))
+            {
+                if (!playerController.IsCrouching())
+                {
+                    playerController.TakeDamage(_damage);
+
+                    Destroy(gameObject);
+                }
+            }
+            else if (collision.TryGetComponent<EnemyController>(out EnemyController enemyController))
+            {
+                enemyController.TakeDamage(_damage);
+
+                Destroy(gameObject);
+            }
         }
         else if (collision.transform.tag == "Shield")
         {

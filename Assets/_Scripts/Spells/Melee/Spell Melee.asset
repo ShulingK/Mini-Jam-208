@@ -15,8 +15,9 @@ MonoBehaviour:
   spellName: Melee
   cooldown: 0.2
   _prefab: {fileID: 666557220040345954, guid: 165d4357c7d82a74580de14f1378b512, type: 3}
+  _damage: 5
+  _tagTarget: Enemy
   radius: 1.5
-  damage: 10
   enemyLayer:
     serializedVersion: 2
     m_Bits: 512

@@ -1,0 +1,557 @@
+fileFormatVersion: 2
+guid: d3580153ec9c3544787d45dddda2933a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 383216030587187006
+    second: SPRITESHEET - usine_0
+  - first:
+      213: -7077200765887133920
+    second: SPRITESHEET - usine_1
+  - first:
+      213: -6714903554659463351
+    second: SPRITESHEET - usine_2
+  - first:
+      213: -6832208495972881469
+    second: SPRITESHEET - usine_3
+  - first:
+      213: -2437246990728969457
+    second: SPRITESHEET - usine_4
+  - first:
+      213: -5918604861466468690
+    second: SPRITESHEET - usine_5
+  - first:
+      213: 8295709796981655927
+    second: SPRITESHEET - usine_6
+  - first:
+      213: -5502022565730688489
+    second: SPRITESHEET - usine_7
+  - first:
+      213: -2624021941835415427
+    second: SPRITESHEET - usine_8
+  - first:
+      213: -5445555619759090079
+    second: SPRITESHEET - usine_9
+  - first:
+      213: -7115983074541145076
+    second: SPRITESHEET - usine_10
+  - first:
+      213: -4260660388550150657
+    second: SPRITESHEET - usine_11
+  - first:
+      213: 7370312065619970281
+    second: SPRITESHEET - usine_12
+  - first:
+      213: 6072333454809692781
+    second: SPRITESHEET - usine_13
+  - first:
+      213: -3679596234799458389
+    second: SPRITESHEET - usine_14
+  - first:
+      213: 9016684311585523832
+    second: SPRITESHEET - usine_15
+  - first:
+      213: 8746396997814459226
+    second: SPRITESHEET - usine_16
+  - first:
+      213: 1629190158617109469
+    second: SPRITESHEET - usine_17
+  - first:
+      213: -6974780652548632728
+    second: SPRITESHEET - usine_18
+  - first:
+      213: 1000432773299594433
+    second: SPRITESHEET - usine_19
+  - first:
+      213: 3853355943234438935
+    second: SPRITESHEET - usine_20
+  - first:
+      213: -7516160021046809595
+    second: SPRITESHEET - usine_21
+  - first:
+      213: 3587890790124827568
+    second: SPRITESHEET - usine_22
+  - first:
+      213: -1652925019181283682
+    second: SPRITESHEET - usine_23
+  - first:
+      213: -2370036167518221047
+    second: SPRITESHEET - usine_24
+  - first:
+      213: -4047146638325888869
+    second: SPRITESHEET - usine_25
+  - first:
+      213: 2714333660565256707
+    second: SPRITESHEET - usine_26
+  - first:
+      213: -2124479220509904241
+    second: SPRITESHEET - usine_27
+  - first:
+      213: 1173604077560630397
+    second: SPRITESHEET - usine_28
+  - first:
+      213: 4728157868031986073
+    second: SPRITESHEET - usine_29
+  - first:
+      213: -1685550490781088909
+    second: SPRITESHEET - usine_30
+  - first:
+      213: -7292780822538944941
+    second: SPRITESHEET - usine_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SPRITESHEET - usine_0
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 11782
+        width: 5428
+        height: 4204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3f626f03f4715500800000000000000
+      internalID: 383216030587187006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITESHEET - usine_2
+      rect:
+        serializedVersion: 2
+        x: 7491
+        y: 12161
+        width: 3472
+        height: 3164
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94fc38b4bcedfc2a0800000000000000
+      internalID: -6714903554659463351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITESHEET - usine_3
+      rect:
+        serializedVersion: 2
+        x: 12839
+        y: 12299
+        width: 5970
+        height: 3406
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cb612e429e1f21a0800000000000000
+      internalID: -6832208495972881469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITESHEET - usine_4
+      rect:
+        serializedVersion: 2
+        x: 20219
+        y: 12804
+        width: 168
+        height: 293
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f03c5b766c82d2ed0800000000000000
+      internalID: -2437246990728969457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITESHEET - usine_5
+      rect:
+        serializedVersion: 2
+        x: 20195
+        y: 12299
+        width: 346
+        height: 419
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eae14629c34ecdda0800000000000000
+      internalID: -5918604861466468690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITESHEET - usine_6
+      rect:
+        serializedVersion: 2
+        x: 12995
+        y: 10486
+        width: 553
+        height: 547
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 779c1d89b18402370800000000000000
+      internalID: 8295709796981655927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITESHEET - usine_7
+      rect:
+        serializedVersion: 2
+        x: 1894
+        y: 5969
+        width: 5575
+        height: 4322
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 712607f90a3e4a3b0800000000000000
+      internalID: -5502022565730688489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITESHEET - usine_14
+      rect:
+        serializedVersion: 2
+        x: 8956
+        y: 8300
+        width: 2951
+        height: 696
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba7d9e348b27fecc0800000000000000
+      internalID: -3679596234799458389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITESHEET - usine_15
+      rect:
+        serializedVersion: 2
+        x: 12613
+        y: 7688
+        width: 5028
+        height: 1308
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87884e3eb92b12d70800000000000000
+      internalID: 9016684311585523832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITESHEET - usine_16
+      rect:
+        serializedVersion: 2
+        x: 18192
+        y: 7327
+        width: 3164
+        height: 1685
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5b1647aab1716970800000000000000
+      internalID: 8746396997814459226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITESHEET - usine_17
+      rect:
+        serializedVersion: 2
+        x: 2844
+        y: 2467
+        width: 1992
+        height: 2208
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd36fe341db0c9610800000000000000
+      internalID: 1629190158617109469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITESHEET - usine_18
+      rect:
+        serializedVersion: 2
+        x: 7297
+        y: 2725
+        width: 266
+        height: 1754
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86f429253f9943f90800000000000000
+      internalID: -6974780652548632728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITESHEET - usine_31
+      rect:
+        serializedVersion: 2
+        x: 1101
+        y: 1104
+        width: 2504
+        height: 1357
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35ef8cf0b76daca90800000000000000
+      internalID: -7292780822538944941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: c0bcbe8e1203b2842844f5e2b4d986f1
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SPRITESHEET - usine_0: 383216030587187006
+      SPRITESHEET - usine_1: -7077200765887133920
+      SPRITESHEET - usine_10: -7115983074541145076
+      SPRITESHEET - usine_11: -4260660388550150657
+      SPRITESHEET - usine_12: 7370312065619970281
+      SPRITESHEET - usine_13: 6072333454809692781
+      SPRITESHEET - usine_14: -3679596234799458389
+      SPRITESHEET - usine_15: 9016684311585523832
+      SPRITESHEET - usine_16: 8746396997814459226
+      SPRITESHEET - usine_17: 1629190158617109469
+      SPRITESHEET - usine_18: -6974780652548632728
+      SPRITESHEET - usine_19: 1000432773299594433
+      SPRITESHEET - usine_2: -6714903554659463351
+      SPRITESHEET - usine_20: 3853355943234438935
+      SPRITESHEET - usine_21: -7516160021046809595
+      SPRITESHEET - usine_22: 3587890790124827568
+      SPRITESHEET - usine_23: -1652925019181283682
+      SPRITESHEET - usine_24: -2370036167518221047
+      SPRITESHEET - usine_25: -4047146638325888869
+      SPRITESHEET - usine_26: 2714333660565256707
+      SPRITESHEET - usine_27: -2124479220509904241
+      SPRITESHEET - usine_28: 1173604077560630397
+      SPRITESHEET - usine_29: 4728157868031986073
+      SPRITESHEET - usine_3: -6832208495972881469
+      SPRITESHEET - usine_30: -1685550490781088909
+      SPRITESHEET - usine_31: -7292780822538944941
+      SPRITESHEET - usine_4: -2437246990728969457
+      SPRITESHEET - usine_5: -5918604861466468690
+      SPRITESHEET - usine_6: 8295709796981655927
+      SPRITESHEET - usine_7: -5502022565730688489
+      SPRITESHEET - usine_8: -2624021941835415427
+      SPRITESHEET - usine_9: -5445555619759090079
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

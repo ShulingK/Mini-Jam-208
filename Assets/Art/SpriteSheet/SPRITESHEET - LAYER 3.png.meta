@@ -1,0 +1,415 @@
+fileFormatVersion: 2
+guid: 508f840f8fbf87040ad8f111f6206b7a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6181512963881528552
+    second: SPRITESHEET - LAYER 3_0
+  - first:
+      213: -5870540820941241104
+    second: SPRITESHEET - LAYER 3_1
+  - first:
+      213: -3869780443740918490
+    second: SPRITESHEET - LAYER 3_2
+  - first:
+      213: 8195884849009708470
+    second: SPRITESHEET - LAYER 3_3
+  - first:
+      213: -6422842845685528201
+    second: SPRITESHEET - LAYER 3_4
+  - first:
+      213: -6139930193457823270
+    second: SPRITESHEET - LAYER 3_5
+  - first:
+      213: 3763818748188521774
+    second: SPRITESHEET - LAYER 3_6
+  - first:
+      213: -5150406227843125513
+    second: SPRITESHEET - LAYER 3_7
+  - first:
+      213: 6411376131326154875
+    second: SPRITESHEET - LAYER 3_8
+  - first:
+      213: 4711626860877841369
+    second: SPRITESHEET - LAYER 3_9
+  - first:
+      213: 5799175170307676015
+    second: SPRITESHEET - LAYER 3_10
+  - first:
+      213: -7817738721105909133
+    second: SPRITESHEET - LAYER 3_11
+  - first:
+      213: -2254745131063223267
+    second: SPRITESHEET - LAYER 3_12
+  - first:
+      213: -7037599990590822599
+    second: SPRITESHEET - LAYER 3_13
+  - first:
+      213: 8038904210015044751
+    second: SPRITESHEET - LAYER 3_14
+  - first:
+      213: 8139497503978534741
+    second: SPRITESHEET - LAYER 3_15
+  - first:
+      213: -5978664733780005676
+    second: SPRITESHEET - LAYER 3_16
+  - first:
+      213: -1708039874078915468
+    second: SPRITESHEET - LAYER 3_17
+  - first:
+      213: 3152217436682293863
+    second: SPRITESHEET - LAYER 3_18
+  - first:
+      213: -5113108056160071348
+    second: SPRITESHEET - LAYER 3_19
+  - first:
+      213: 2767613565651232859
+    second: SPRITESHEET - LAYER 3_20
+  - first:
+      213: 3600929571462474295
+    second: SPRITESHEET - LAYER 3_21
+  - first:
+      213: 6178750835117555456
+    second: SPRITESHEET - LAYER 3_22
+  - first:
+      213: 6416370097961307921
+    second: SPRITESHEET - LAYER 3_23
+  - first:
+      213: 3248334932629207372
+    second: SPRITESHEET - LAYER 3_24
+  - first:
+      213: -7235477213435949399
+    second: SPRITESHEET - LAYER 3_25
+  - first:
+      213: 3297369908612160796
+    second: SPRITESHEET - LAYER 3_26
+  - first:
+      213: -2737324280313945037
+    second: SPRITESHEET - LAYER 3_27
+  - first:
+      213: -4774210080638315958
+    second: SPRITESHEET - LAYER 3_28
+  - first:
+      213: -7941174117511865916
+    second: SPRITESHEET - LAYER 3_29
+  - first:
+      213: -8546126180182942440
+    second: SPRITESHEET - LAYER 3_30
+  - first:
+      213: 6773571895106021705
+    second: SPRITESHEET - LAYER 3_31
+  - first:
+      213: 3866059688534379143
+    second: SPRITESHEET - LAYER 3_32
+  - first:
+      213: -1155663234110990240
+    second: SPRITESHEET - LAYER 3_33
+  - first:
+      213: 5475526648762209970
+    second: SPRITESHEET - LAYER 3_34
+  - first:
+      213: -8364329785514115673
+    second: SPRITESHEET - LAYER 3_35
+  - first:
+      213: -4297002553912425996
+    second: SPRITESHEET - LAYER 3_36
+  - first:
+      213: -6999668823597456198
+    second: SPRITESHEET - LAYER 3_37
+  - first:
+      213: -4282820847701545233
+    second: SPRITESHEET - LAYER 3_38
+  - first:
+      213: -8067931020586538256
+    second: SPRITESHEET - LAYER 3_39
+  - first:
+      213: 3313148160940530196
+    second: SPRITESHEET - LAYER 3_40
+  - first:
+      213: -7414616902901602321
+    second: SPRITESHEET - LAYER 3_41
+  - first:
+      213: 2258546470507869001
+    second: SPRITESHEET - LAYER 3_42
+  - first:
+      213: -7758584503167159111
+    second: SPRITESHEET - LAYER 3_43
+  - first:
+      213: -7433096147184102087
+    second: SPRITESHEET - LAYER 3_44
+  - first:
+      213: -8542709864511214568
+    second: SPRITESHEET - LAYER 3_45
+  - first:
+      213: 4279028179060122427
+    second: SPRITESHEET - LAYER 3_46
+  - first:
+      213: -4362201964900587934
+    second: SPRITESHEET - LAYER 3_47
+  - first:
+      213: -1055112894487771161
+    second: SPRITESHEET - LAYER 3_48
+  - first:
+      213: 409109122110372555
+    second: SPRITESHEET - LAYER 3_49
+  - first:
+      213: 4944735679768442414
+    second: SPRITESHEET - LAYER 3_50
+  - first:
+      213: -4110287345328749379
+    second: SPRITESHEET - LAYER 3_51
+  - first:
+      213: 2854743670097072463
+    second: SPRITESHEET - LAYER 3_52
+  - first:
+      213: 7641223442967490906
+    second: SPRITESHEET - LAYER 3_53
+  - first:
+      213: -4854153027175920000
+    second: SPRITESHEET - LAYER 3_54
+  - first:
+      213: 8568638022404385321
+    second: SPRITESHEET - LAYER 3_55
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SPRITESHEET - LAYER 3_0
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1011
+        width: 32026
+        height: 679
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8139e5dd5bad63aa0800000000000000
+      internalID: -6181512963881528552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SPRITESHEET - LAYER 3_1
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 300
+        width: 2084
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f40e501a36a78ea0800000000000000
+      internalID: -5870540820941241104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceOnImport
+        value: False
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      SPRITESHEET - LAYER 3_0: -6181512963881528552
+      SPRITESHEET - LAYER 3_1: -5870540820941241104
+      SPRITESHEET - LAYER 3_10: 5799175170307676015
+      SPRITESHEET - LAYER 3_11: -7817738721105909133
+      SPRITESHEET - LAYER 3_12: -2254745131063223267
+      SPRITESHEET - LAYER 3_13: -7037599990590822599
+      SPRITESHEET - LAYER 3_14: 8038904210015044751
+      SPRITESHEET - LAYER 3_15: 8139497503978534741
+      SPRITESHEET - LAYER 3_16: -5978664733780005676
+      SPRITESHEET - LAYER 3_17: -1708039874078915468
+      SPRITESHEET - LAYER 3_18: 3152217436682293863
+      SPRITESHEET - LAYER 3_19: -5113108056160071348
+      SPRITESHEET - LAYER 3_2: -3869780443740918490
+      SPRITESHEET - LAYER 3_20: 2767613565651232859
+      SPRITESHEET - LAYER 3_21: 3600929571462474295
+      SPRITESHEET - LAYER 3_22: 6178750835117555456
+      SPRITESHEET - LAYER 3_23: 6416370097961307921
+      SPRITESHEET - LAYER 3_24: 3248334932629207372
+      SPRITESHEET - LAYER 3_25: -7235477213435949399
+      SPRITESHEET - LAYER 3_26: 3297369908612160796
+      SPRITESHEET - LAYER 3_27: -2737324280313945037
+      SPRITESHEET - LAYER 3_28: -4774210080638315958
+      SPRITESHEET - LAYER 3_29: -7941174117511865916
+      SPRITESHEET - LAYER 3_3: 8195884849009708470
+      SPRITESHEET - LAYER 3_30: -8546126180182942440
+      SPRITESHEET - LAYER 3_31: 6773571895106021705
+      SPRITESHEET - LAYER 3_32: 3866059688534379143
+      SPRITESHEET - LAYER 3_33: -1155663234110990240
+      SPRITESHEET - LAYER 3_34: 5475526648762209970
+      SPRITESHEET - LAYER 3_35: -8364329785514115673
+      SPRITESHEET - LAYER 3_36: -4297002553912425996
+      SPRITESHEET - LAYER 3_37: -6999668823597456198
+      SPRITESHEET - LAYER 3_38: -4282820847701545233
+      SPRITESHEET - LAYER 3_39: -8067931020586538256
+      SPRITESHEET - LAYER 3_4: -6422842845685528201
+      SPRITESHEET - LAYER 3_40: 3313148160940530196
+      SPRITESHEET - LAYER 3_41: -7414616902901602321
+      SPRITESHEET - LAYER 3_42: 2258546470507869001
+      SPRITESHEET - LAYER 3_43: -7758584503167159111
+      SPRITESHEET - LAYER 3_44: -7433096147184102087
+      SPRITESHEET - LAYER 3_45: -8542709864511214568
+      SPRITESHEET - LAYER 3_46: 4279028179060122427
+      SPRITESHEET - LAYER 3_47: -4362201964900587934
+      SPRITESHEET - LAYER 3_48: -1055112894487771161
+      SPRITESHEET - LAYER 3_49: 409109122110372555
+      SPRITESHEET - LAYER 3_5: -6139930193457823270
+      SPRITESHEET - LAYER 3_50: 4944735679768442414
+      SPRITESHEET - LAYER 3_51: -4110287345328749379
+      SPRITESHEET - LAYER 3_52: 2854743670097072463
+      SPRITESHEET - LAYER 3_53: 7641223442967490906
+      SPRITESHEET - LAYER 3_54: -4854153027175920000
+      SPRITESHEET - LAYER 3_55: 8568638022404385321
+      SPRITESHEET - LAYER 3_6: 3763818748188521774
+      SPRITESHEET - LAYER 3_7: -5150406227843125513
+      SPRITESHEET - LAYER 3_8: 6411376131326154875
+      SPRITESHEET - LAYER 3_9: 4711626860877841369
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
