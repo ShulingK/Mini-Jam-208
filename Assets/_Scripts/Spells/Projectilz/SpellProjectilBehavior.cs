@@ -23,4 +23,17 @@ public class SpellProjectilBehavior : SpellBehavior
             yield return null;
         }
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.transform.tag == "Enemy")
+        {
+            // Take Damages;
+            Destroy(gameObject);
+        }
+        else if (collision.transform.tag == "Shield")
+        {
+            Destroy(gameObject);
+        }
+    }
 }

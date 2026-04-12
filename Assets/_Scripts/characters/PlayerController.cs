@@ -29,6 +29,10 @@ public class PlayerController : CharacterBase
         inputActions.Player.Crouch.canceled += OnEndCrouch;
 
         inputActions.Player.Spell1.started += CastSpell1;
+        inputActions.Player.Spell2.started += CastSpell2;
+        inputActions.Player.Spell3.started += CastSpell3;
+        inputActions.Player.Spell4.started += CastSpell4;
+        inputActions.Player.Spell5.started += CastSpell5;
     }
 
     protected override void OnDisable()
@@ -39,6 +43,10 @@ public class PlayerController : CharacterBase
         inputActions.Player.Crouch.canceled -= OnEndCrouch;
 
         inputActions.Player.Spell1.started -= CastSpell1;
+        inputActions.Player.Spell2.started -= CastSpell2;
+        inputActions.Player.Spell3.started -= CastSpell3;
+        inputActions.Player.Spell4.started -= CastSpell4;
+        inputActions.Player.Spell5.started -= CastSpell5;
 
         inputActions.Disable();
     }
@@ -82,7 +90,7 @@ public class PlayerController : CharacterBase
         float crouchFactor = 1f;
 
         if (isCrouching)
-            crouchFactor = 0.5f;
+            crouchFactor = 0f;
 
         moveInput = inputActions.Player.Move.ReadValue<Vector2>() * crouchFactor;
 
@@ -105,15 +113,27 @@ public class PlayerController : CharacterBase
     }
     private void CastSpell2(InputAction.CallbackContext context)
     {
-        // _spellCaster.CastSpell(1);
+        Vector2 dir = GetComponent<SpriteRenderer>().flipX ? Vector2.left : Vector2.right; // ou left selon ton perso
+
+        _spellCaster.CastSpell(1, dir);
     }
     private void CastSpell3(InputAction.CallbackContext context)
     {
-        // _spellCaster.CastSpell(2);
+        Vector2 dir = GetComponent<SpriteRenderer>().flipX ? Vector2.left : Vector2.right; // ou left selon ton perso
+
+        _spellCaster.CastSpell(2, dir);
     }
     private void CastSpell4(InputAction.CallbackContext context)
     {
-        // _spellCaster.CastSpell(3);
+        Vector2 dir = GetComponent<SpriteRenderer>().flipX ? Vector2.left : Vector2.right; // ou left selon ton perso
+
+        _spellCaster.CastSpell(3, dir);
+    }
+    private void CastSpell5(InputAction.CallbackContext context)
+    {
+        Vector2 dir = GetComponent<SpriteRenderer>().flipX ? Vector2.left : Vector2.right; // ou left selon ton perso
+
+        _spellCaster.CastSpell(4, dir);
     }
 
     #endregion

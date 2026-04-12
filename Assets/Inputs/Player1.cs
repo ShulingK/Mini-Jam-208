@@ -145,6 +145,15 @@ public partial class @Player1: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Spell5"",
+                    ""type"": ""Button"",
+                    ""id"": ""50df72cf-de50-4c14-9d09-d9ab09bf0174"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -257,6 +266,17 @@ public partial class @Player1: IInputActionCollection2, IDisposable
                     ""action"": ""Spell4"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""051a8b98-6385-43f4-a68d-7817846cd9aa"",
+                    ""path"": ""<Keyboard>/z"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Spell5"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -271,6 +291,7 @@ public partial class @Player1: IInputActionCollection2, IDisposable
         m_Player_Spell2 = m_Player.FindAction("Spell2", throwIfNotFound: true);
         m_Player_Spell3 = m_Player.FindAction("Spell3", throwIfNotFound: true);
         m_Player_Spell4 = m_Player.FindAction("Spell4", throwIfNotFound: true);
+        m_Player_Spell5 = m_Player.FindAction("Spell5", throwIfNotFound: true);
     }
 
     ~@Player1()
@@ -357,6 +378,7 @@ public partial class @Player1: IInputActionCollection2, IDisposable
     private readonly InputAction m_Player_Spell2;
     private readonly InputAction m_Player_Spell3;
     private readonly InputAction m_Player_Spell4;
+    private readonly InputAction m_Player_Spell5;
     /// <summary>
     /// Provides access to input actions defined in input action map "Player".
     /// </summary>
@@ -392,6 +414,10 @@ public partial class @Player1: IInputActionCollection2, IDisposable
         /// Provides access to the underlying input action "Player/Spell4".
         /// </summary>
         public InputAction @Spell4 => m_Wrapper.m_Player_Spell4;
+        /// <summary>
+        /// Provides access to the underlying input action "Player/Spell5".
+        /// </summary>
+        public InputAction @Spell5 => m_Wrapper.m_Player_Spell5;
         /// <summary>
         /// Provides access to the underlying input action map instance.
         /// </summary>
@@ -436,6 +462,9 @@ public partial class @Player1: IInputActionCollection2, IDisposable
             @Spell4.started += instance.OnSpell4;
             @Spell4.performed += instance.OnSpell4;
             @Spell4.canceled += instance.OnSpell4;
+            @Spell5.started += instance.OnSpell5;
+            @Spell5.performed += instance.OnSpell5;
+            @Spell5.canceled += instance.OnSpell5;
         }
 
         /// <summary>
@@ -465,6 +494,9 @@ public partial class @Player1: IInputActionCollection2, IDisposable
             @Spell4.started -= instance.OnSpell4;
             @Spell4.performed -= instance.OnSpell4;
             @Spell4.canceled -= instance.OnSpell4;
+            @Spell5.started -= instance.OnSpell5;
+            @Spell5.performed -= instance.OnSpell5;
+            @Spell5.canceled -= instance.OnSpell5;
         }
 
         /// <summary>
@@ -547,5 +579,12 @@ public partial class @Player1: IInputActionCollection2, IDisposable
         /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
         void OnSpell4(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "Spell5" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnSpell5(InputAction.CallbackContext context);
     }
 }
