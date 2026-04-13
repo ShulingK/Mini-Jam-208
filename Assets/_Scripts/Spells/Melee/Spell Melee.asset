@@ -20,5 +20,5 @@ MonoBehaviour:
   radius: 1.5
   enemyLayer:
     serializedVersion: 2
-    m_Bits: 512
+    m_Bits: 2048
   _prefabVFX: {fileID: 3399307476006390729, guid: 75cb514c6e90e734a822da6105d5daf8, type: 3}

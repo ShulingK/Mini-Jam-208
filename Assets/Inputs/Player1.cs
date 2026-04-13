@@ -215,7 +215,7 @@ public partial class @Player1: IInputActionCollection2, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""43a2c6b0-1af0-4af2-84ea-b0573505ab51"",
-                    ""path"": ""<Keyboard>/shift"",
+                    ""path"": ""<Keyboard>/s"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -226,7 +226,7 @@ public partial class @Player1: IInputActionCollection2, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""4a464480-78cc-4a07-9d6b-9b7a586e6141"",
-                    ""path"": ""<Keyboard>/q"",
+                    ""path"": ""<Keyboard>/g"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -237,7 +237,7 @@ public partial class @Player1: IInputActionCollection2, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""2a401fa6-153a-4808-9da1-355cd95a7d4f"",
-                    ""path"": ""<Keyboard>/e"",
+                    ""path"": ""<Keyboard>/j"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -248,7 +248,7 @@ public partial class @Player1: IInputActionCollection2, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""d3803c40-89b6-4d91-b752-e96cadeb89e7"",
-                    ""path"": ""<Keyboard>/x"",
+                    ""path"": ""<Keyboard>/h"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -259,7 +259,7 @@ public partial class @Player1: IInputActionCollection2, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""e28f143b-3a68-4244-b246-879536a5afed"",
-                    ""path"": ""<Keyboard>/f"",
+                    ""path"": ""<Keyboard>/k"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -270,7 +270,7 @@ public partial class @Player1: IInputActionCollection2, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""051a8b98-6385-43f4-a68d-7817846cd9aa"",
-                    ""path"": ""<Keyboard>/z"",
+                    ""path"": ""<Keyboard>/l"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",

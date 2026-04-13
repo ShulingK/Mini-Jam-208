@@ -1,8 +1,5 @@
-using JetBrains.Annotations;
-using UnityEditor.Tilemaps;
 using UnityEngine;
 using UnityEngine.InputSystem;
-using UnityEngine.UIElements;
 
 public class PlayerController : CharacterBase
 {
@@ -72,6 +69,11 @@ public class PlayerController : CharacterBase
         _boxCollider.offset = offset;
 
         GetComponent<Animator>().SetBool("Crouch", true);
+
+        foreach (var action in GameManager.Instance.GetAllies())
+        {
+            action.HandleCrouch();
+        }
     }
     private void OnEndCrouch(InputAction.CallbackContext context)
     {
@@ -90,6 +92,11 @@ public class PlayerController : CharacterBase
         _boxCollider.offset = offset;
 
         GetComponent<Animator>().SetBool("Crouch", false);
+
+        foreach (var action in GameManager.Instance.GetAllies())
+        {
+            action.HandleOnEndCrouch();
+        }
     }
 
     public bool IsCrouching() => _isCrouching;
@@ -123,39 +130,103 @@ public class PlayerController : CharacterBase
 
     private void CastSpell1(InputAction.CallbackContext context)
     {
+        if (IsCrouching()) return;
+
         Vector2 dir = GetComponent<SpriteRenderer>().flipX? Vector2.left: Vector2.right; // ou left selon ton perso
 
         _spellCaster.CastSpell(0, dir);
     }
     private void CastSpell2(InputAction.CallbackContext context)
     {
+        if (IsCrouching()) return;
+        if (GameManager.Instance.GetAllies().Count + 1 < 2) return;
         Vector2 dir = GetComponent<SpriteRenderer>().flipX ? Vector2.left : Vector2.right; // ou left selon ton perso
 
         _spellCaster.CastSpell(1, dir);
     }
     private void CastSpell3(InputAction.CallbackContext context)
     {
+        if (IsCrouching()) return;
+        if (GameManager.Instance.GetAllies().Count + 1 < 6) return;
         Vector2 dir = GetComponent<SpriteRenderer>().flipX ? Vector2.left : Vector2.right; // ou left selon ton perso
 
         _spellCaster.CastSpell(2, dir);
     }
     private void CastSpell4(InputAction.CallbackContext context)
     {
+        if (IsCrouching()) return;
+        if (GameManager.Instance.GetAllies().Count + 1 < 10) return;
         Vector2 dir = GetComponent<SpriteRenderer>().flipX ? Vector2.left : Vector2.right; // ou left selon ton perso
 
         _spellCaster.CastSpell(3, dir);
     }
     private void CastSpell5(InputAction.CallbackContext context)
     {
+        if (IsCrouching()) return;
+        if (GameManager.Instance.GetAllies().Count + 1 < 14) return;
+        Vector2 dir = GetComponent<SpriteRenderer>().flipX ? Vector2.left : Vector2.right; // ou left selon ton perso
+
+        _spellCaster.CastSpell(4, dir);
+    }
+    
+
+
+
+    public void CastSpell1()
+    {
+        if (IsCrouching()) return;
+
+        Vector2 dir = GetComponent<SpriteRenderer>().flipX? Vector2.left: Vector2.right; // ou left selon ton perso
+
+        _spellCaster.CastSpell(0, dir);
+    }
+    public void CastSpell2()
+    {
+        if (IsCrouching()) return;
+        if (GameManager.Instance.GetAllies().Count + 1 < 2) return;
+
+        Vector2 dir = GetComponent<SpriteRenderer>().flipX ? Vector2.left : Vector2.right; // ou left selon ton perso
+
+        _spellCaster.CastSpell(1, dir);
+    }
+    public void CastSpell3()
+    {
+        if (IsCrouching()) return;
+        if (GameManager.Instance.GetAllies().Count + 1 < 6) return;
+        Vector2 dir = GetComponent<SpriteRenderer>().flipX ? Vector2.left : Vector2.right; // ou left selon ton perso
+
+        _spellCaster.CastSpell(2, dir);
+    }
+    public void CastSpell4()
+    {
+        if (IsCrouching()) return;
+        if (GameManager.Instance.GetAllies().Count + 1 < 10) return;
+        Vector2 dir = GetComponent<SpriteRenderer>().flipX ? Vector2.left : Vector2.right; // ou left selon ton perso
+
+        _spellCaster.CastSpell(3, dir);
+    }
+    public void CastSpell5()
+    {
+        if (IsCrouching()) return;
+        if (GameManager.Instance.GetAllies().Count + 1 < 14) return;
         Vector2 dir = GetComponent<SpriteRenderer>().flipX ? Vector2.left : Vector2.right; // ou left selon ton perso
 
         _spellCaster.CastSpell(4, dir);
     }
 
+    public bool CanCastSpell1() => _spellCaster.CanCast(0);
+    public bool CanCastSpell2() => _spellCaster.CanCast(1);
+    public bool CanCastSpell3() => _spellCaster.CanCast(2);
+    public bool CanCastSpell4() => _spellCaster.CanCast(3);
+    public bool CanCastSpell5() => _spellCaster.CanCast(4);
+
+
+
     private void Death()
     {
         Debug.LogWarning("Player is dead");
-        gameObject.SetActive(false);
+        GameManager.Instance.Kill(this);
+        Destroy(gameObject);
     }
 
     #endregion

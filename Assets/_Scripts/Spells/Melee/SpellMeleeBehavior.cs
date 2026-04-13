@@ -25,11 +25,15 @@ public class SpellMeleeBehavior : SpellBehavior
 
     protected override IEnumerator SpellCoroutine()
     {
+        transform.SetParent(_origin);
+
         Collider2D[] hits = Physics2D.OverlapCircleAll(_origin.transform.position + new Vector3(_target.x, _target.y, 0), _radius, _enemyLayer);
+
+        transform.localPosition = new Vector3(1.14f, -0.19f, 0f);
 
         foreach (Collider2D hit in hits)
         {
-            Debug.Log("target : " + _tagTarget + "  hit : "+hit.transform.tag);
+            Debug.Log("target : " + _tagTarget + "  hit : " + hit.transform.tag);
 
             if (hit.transform.tag == _tagTarget)
             {
@@ -41,6 +45,8 @@ public class SpellMeleeBehavior : SpellBehavior
 
                     yield return new WaitForSeconds(_timeBeforeDeleting);
 
+                    AudioManager.Instance.PlayOneShot(AudioEvent.Instance._melee);
+
                     Destroy(VFX);
                 }
                 else if (hit.TryGetComponent<EnemyController>(out EnemyController enemyController))
@@ -51,12 +57,14 @@ public class SpellMeleeBehavior : SpellBehavior
 
                     yield return new WaitForSeconds(_timeBeforeDeleting);
 
+                    AudioManager.Instance.PlayOneShot(AudioEvent.Instance._melee);
+
                     Destroy(VFX);
                 }
             }
         }
 
-        Destroy(gameObject);
+        Destroy(gameObject, _timeBeforeDeleting);
 
         yield return null;
     }

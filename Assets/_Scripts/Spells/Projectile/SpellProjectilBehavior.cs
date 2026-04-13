@@ -42,17 +42,25 @@ public class SpellProjectilBehavior : SpellBehavior
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("Touched: " + _tagTarget);
-
         if (_tagTarget == null) return;
 
         if (collision.CompareTag(_tagTarget))
         {
-            if (collision.TryGetComponent<PlayerController>(out PlayerController playerController))
+            if (collision.TryGetComponent<PlayerController>(out PlayerController playerController) && playerController.enabled == true)
             {
                 if (!playerController.IsCrouching())
                 {
                     playerController.TakeDamage(_damage);
+
+
+                    Destroy(gameObject);
+                }
+            }
+            else if (collision.TryGetComponent<AllyController>(out AllyController allyController) && allyController.enabled == true)
+            {
+                if (!allyController.IsCrouching())
+                {
+                    allyController.TakeDamage(_damage);
 
                     Destroy(gameObject);
                 }
@@ -66,6 +74,8 @@ public class SpellProjectilBehavior : SpellBehavior
         }
         else if (collision.CompareTag("Shield"))
         {
+            AudioManager.Instance.PlayOneShot(AudioEvent.Instance._Shield);
+
             Destroy(gameObject);
         }
     }

@@ -7,7 +7,7 @@ public class SpellLargeShieldData : SpellData
 
     public override void Cast(Transform origin, Vector2 target, bool isFacingRight)
     {
-        GameObject proj = Instantiate(_prefab, origin.transform.position + new Vector3(0, 5, 0), Quaternion.identity);
+        GameObject proj = Instantiate(_prefab, origin.transform.position + new Vector3(-1, 0, 0), Quaternion.identity);
 
         if (proj.TryGetComponent<SpellLargeShieldBehavior>(out var behavior))
         {

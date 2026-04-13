@@ -3,9 +3,6 @@ using UnityEngine;
 
 public class EnemyController : CharacterBase
 {
-    [Header("Target")]
-    [SerializeField] private Transform player;
-
     [Header("Distances")]
     [SerializeField] private float attackRange = 6f;
 
@@ -13,13 +10,29 @@ public class EnemyController : CharacterBase
     [SerializeField] private SpellCaster spellCaster;
 
 
+    protected override void OnEnable()
+    {
+        base.OnEnable();
+
+        OnDeath += Death;
+    }
+
+    protected override void OnDisable()
+    {
+        base.OnDisable();
+
+        OnDeath -= Death;
+    }
+
     protected void Update()
     {
-        if (player == null) return;
+        if (GameManager.Instance == null) return;
 
-        float distance = Vector2.Distance(transform.position, player.position);
+        if (GameManager.Instance._player == null) return;
 
-        Vector2 dirToPlayer = (player.position - transform.position).normalized;
+        float distance = Vector2.Distance(transform.position, GameManager.Instance._player.transform.position);
+
+        Vector2 dirToPlayer = (GameManager.Instance._player.transform.position - transform.position).normalized;
 
         // REGARDER LE JOUEUR
         Flip(dirToPlayer.x);
@@ -60,5 +73,12 @@ public class EnemyController : CharacterBase
         if (dirX == 0) return;
 
         GetComponent<SpriteRenderer>().flipX = dirX < 0;
+    }
+
+    protected virtual void Death()
+    {
+        GameManager.Instance.CreateNewAlly(transform.position);
+
+        Destroy(gameObject);
     }
 }

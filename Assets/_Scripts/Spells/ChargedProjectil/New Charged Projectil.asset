@@ -13,5 +13,7 @@ MonoBehaviour:
   m_Name: New Charged Projectil
   m_EditorClassIdentifier: Assembly-CSharp::SpellChargedProjectilData
   spellName: Charged Projectil
-  cooldown: 3
+  cooldown: 5
   _prefab: {fileID: 4312655904579566318, guid: a96e2e932ca2f84438c3903f3397048a, type: 3}
+  _damage: 80
+  _tagTarget: Enemy

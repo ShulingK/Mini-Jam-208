@@ -112,7 +112,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 4312152322930311425, guid: fb241ad375c485a468803c600ad5b3e8, type: 3}
+  m_Sprite: {fileID: 5754687768741283800, guid: 9bad827e3cd960f4cbd921eedeef7f99, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -137,7 +137,7 @@ GameObject:
   - component: {fileID: 1897756170373132285}
   - component: {fileID: 4039310880106491891}
   - component: {fileID: 2235650821631965706}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -326,8 +326,8 @@ MonoBehaviour:
   - data: {fileID: 11400000, guid: 2449b0aaed6660347a9859d2a660f673, type: 2}
   - data: {fileID: 11400000, guid: 5d809ae3fab3ce049b76180fd0efe269, type: 2}
   - data: {fileID: 11400000, guid: 6bf2389683fe9d748bf713982fd75c31, type: 2}
-  - data: {fileID: 11400000, guid: 3b5820568abbb4a419e4ce94a87eb0d7, type: 2}
   - data: {fileID: 11400000, guid: 03e0c5bcc6c66cd4eaa6d27466259b76, type: 2}
+  - data: {fileID: 11400000, guid: 3b5820568abbb4a419e4ce94a87eb0d7, type: 2}
 --- !u!95 &2235650821631965706
 Animator:
   serializedVersion: 7

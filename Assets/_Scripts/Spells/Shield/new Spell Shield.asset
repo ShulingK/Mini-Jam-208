@@ -15,4 +15,6 @@ MonoBehaviour:
   spellName: Shield
   cooldown: 4
   _prefab: {fileID: 7836752852165870870, guid: dfd5dccede4ba4546bc22aea47dff610, type: 3}
-  _shieldTime: 1
+  _damage: 0
+  _tagTarget: 
+  _shieldTime: 2.5

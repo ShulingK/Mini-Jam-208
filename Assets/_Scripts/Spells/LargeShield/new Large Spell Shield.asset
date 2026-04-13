@@ -15,4 +15,6 @@ MonoBehaviour:
   spellName: LargeShield
   cooldown: 10
   _prefab: {fileID: 4088093296323961127, guid: 423937ac4134c324fb96e013373d9985, type: 3}
-  _shieldTime: 1.5
+  _damage: 0
+  _tagTarget: 
+  _shieldTime: 4

@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SpellDataProjectil
   spellName: Bullet
   cooldown: 1
-  _prefab: {fileID: 4948621520588683172, guid: dd471a65aea502647a6089d2437f359c, type: 3}
-  _damage: 10
+  _prefab: {fileID: 4948621520588683172, guid: 237909cec02a3f84abb6a9bdc8e3777e, type: 3}
+  _damage: 100
   _tagTarget: Enemy

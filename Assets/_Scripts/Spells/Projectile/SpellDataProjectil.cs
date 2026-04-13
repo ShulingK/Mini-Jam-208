@@ -7,6 +7,8 @@ public class SpellDataProjectil : SpellData
     {
         GameObject proj = Instantiate(_prefab, origin.position, Quaternion.identity);
 
+        AudioManager.Instance.PlayOneShot(AudioEvent.Instance._shoot1);
+
         if (proj.TryGetComponent<SpellProjectilBehavior>(out var behavior))
         {
             behavior.Init(dir, _tagTarget, _damage);
